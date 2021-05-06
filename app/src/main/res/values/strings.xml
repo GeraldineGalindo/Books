@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BooksApp</string>
+    <string name="titulo_lista_libros">Lista de Libros Registrados</string>
+    <string name="registrar_nuevo_libro">Registrar Nuevo Libro</string>
+    <string name="functionalNotes">Refresh</string>
+    <string name="registrar_libro">Registrar Libro</string>
+    <string name="paginas_libro">Pàginas</string>
+    <string name="bookTitle">TextView</string>
+    <string name="bookPages">TextView</string>
+    <string name="bookEditorial">TextView</string>
+    <string name="txtAuthor">TextView</string>
+    <string name="txtDescription">TextView</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="editorial">Editorial</string>
+    <string name="autor">Autor</string>
+    <string name="descripci_n">Descripciòn</string>
+    <string name="t_tulo">Tìtulo</string>
+    <string name="registrar">Registrar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="editar_libro">Editar Libro</string>
+    <string name="guardar">Guardar</string>
+</resources>
