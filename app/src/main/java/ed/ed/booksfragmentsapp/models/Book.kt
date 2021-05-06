@@ -15,5 +15,7 @@ class Book (
     val editorial: String,
     val author: String,
     val description: String,
-    val isbn: String
+    val isbn: String,
+    val publishedDate: String,
+    val imageURL: String
 ) : Parcelable

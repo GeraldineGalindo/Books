@@ -26,6 +26,10 @@ class RegisterBook : Fragment() {
         view.btnRegister.setOnClickListener{
             insertDataToDB()
         }
+
+        view.btnCancel.setOnClickListener{
+            findNavController().navigate(R.id.action_addFragment_to_listFragment)
+        }
         return view
     }
 
@@ -35,11 +39,12 @@ class RegisterBook : Fragment() {
         val editorial = txtEditorialAdd.text.toString()
         val author = txtAuthorAdd.text.toString()
         val description = txtDescriptionAdd.text.toString()
+        val isbn = txtISBNAdd.text.toString()
+        val imagePath = txtImageAdd.text.toString()
+        val publishDate = dateAdd.text.toString()
 
-        val book = Book(0, title, Integer.parseInt(pages.toString()), editorial, author, description, "r")
-        //Register the book
+        val book = Book(0, title, Integer.parseInt(pages.toString()), editorial, author, description, isbn, imagePath, publishDate)
         bookViewModel.addBook(book)
-        //Go to list
         findNavController().navigate(R.id.action_addFragment_to_listFragment)
     }
 

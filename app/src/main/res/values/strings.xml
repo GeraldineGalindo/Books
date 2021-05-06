@@ -20,4 +20,6 @@
     <string name="cancelar">Cancelar</string>
     <string name="editar_libro">Editar Libro</string>
     <string name="guardar">Guardar</string>
+    <string name="isbn">ISBN</string>
+    <string name="image">Image</string>
 </resources>
